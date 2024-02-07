@@ -1,0 +1,53 @@
+
+/* ---------------Projects---------------- */
+#projects {
+  padding: 10%;
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+#projects .cards { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#projects .cards .pcard {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.pcard:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+#projects .cards .pcard img {
+  height: 20%;
+  width: 50%;
+  margin-bottom: 10%;
+  border-radius: 50%;
+  border: solid #c4f5ca;
+}
+
+@media screen and (max-width:1023px){
+  #projects {
+    margin: 0px;
+  }
+  
+  #projects .cards{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

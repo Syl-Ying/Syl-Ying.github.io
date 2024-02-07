@@ -1,0 +1,117 @@
+
+/* ------------Contact--------------- */
+#contact {
+    padding: 10% 10% 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 25px;
+    width: 70%;
+  }
+  
+  #contact .info h2 {
+    font-weight: 500;
+    font-size: 200%;
+  }
+  
+  #contact .info p {
+    background: transparent;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  .info .icons {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+  
+  .info .icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+/*---------------footer-----------------*/
+.footerend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background: #d1e894;
+}
+  
+.footerend p {
+  background: transparent;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+  
+@media screen and (max-width:1023px) { 
+  #contact {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+ 
+  #contact .contact-text .text{
+    padding: 0px;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-text .text p {
+    font-size: 16px;
+    color: #FFBE00;
+    margin-left: 0px;
+  }
+
+  .contact-text .icons{
+    padding-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact .links0{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact .links0 p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+    justify-content: start;
+  }
+
+  #contact .links0 h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}

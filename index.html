@@ -1,11 +1,156 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sylvia's Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="assets/home/home.css">
+        <link rel="stylesheet" href="assets/projects/projects.css">
+        <link rel="stylesheet" href="assets/gallery/photography.css">
+        <link rel="stylesheet" href="assets/contact/contact.css">
+
+    </head>
+
+    <body>
+        <!-----------------Nav Web------------------->
+        <section class="header">
+            <nav>
+                <div class="name">
+                    <a href="index.html">Sylvia Ying</a>
+                </div>
+
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#projects">Projects</a>    
+                        </li>
+                        <li>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>    
+
+                        <!-- <div class="indicator"></div>                -->
+                    </ul>
+                </div>
+                
+                <div class="cv">
+                    <a href="https://docs.google.com/document/d/1kPq-vc0utZAjgRHvfy6Cs5yiedgi-eG0/edit?usp=sharing&ouid=117763228255186080644&rtpof=true&sd=true" class="cv-text">CV</a>
+                    <img src="assets/nav/nav_img/download.png" alt="download">
+                </div>
+            </nav>
+        </section>
+
+        <!-----------------Home------------------->
+        <section id="home">
+            <div class="home-text">
+                <h1>Hi! I'm <span class="primary-color">Sylvia</span></h1>
+                <div class="line"></div>
+                <p>Master in Computer Science<br>Khoury College of Computer Science<br>Northeastern University Seattle</p>
+            </div>
+
+            <div class="home-image">
+                <img src="assets/home/home_img/home.png" alt="home image">
+            </div>
+        </section>
+
+        <!-----------------Projects------------------>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="cards">
+                <div class="pcard">
+                    <img src="assets/projects/projects_img/project1.png" alt="">
+                    <p>Q & A Recommendation Website</p>
+                </div>
+                <div class="pcard">
+                    <img src="assets/projects/projects_img/project2.png" alt="">
+                    <p>Recipe Management System</p>
+                </div>
+                <div class="pcard">
+                    <img src="assets/projects/projects_img/project3.png" alt="">
+                    <p>Chess Game</p>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------Photography---------------------->
+        <section id="gallery">
+            <h2>Photography</h2>
+            <div class="gallery_container">
+                <div class="pcard pcard1">
+                    <img src="assets/gallery/gallery_img/sh_neonlight.jpg" class="gallery_img" alt="">
+                </div>
+                <div class="pcard pcard2">
+                    <img src="assets/gallery/gallery_img/sh_model.jpg" class="gallery_img" alt="">
+                </div>
+                <div class="pcard pcard3">
+                    <img src="assets/gallery/gallery_img/sh_cat.jpg" class="gallery_img" alt="">
+                </div>
+                <div class="pcard pcard4">
+                    <img src="assets/gallery/gallery_img/ls_girl.png" class="gallery_img" alt="">
+                </div>
+                <div class="pcard pcard5">
+                    <img src="assets/gallery/gallery_img/sh_building.png" class="gallery_img" alt="">
+                    
+                </div>
+                <div class="pcard pcard6">
+                    <img src="assets/gallery/gallery_img/sh_swfc.jpg" class="gallery_img" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!---------------Contact------------------->
+        <section id="contact">
+            <div class="info">
+                <h2>Contact Me</h2>
+                <p>Sylvia Ying</p>
+                <p>shujieying@hotmail.com</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/shujieying/"><img src="assets/contact/contact_img/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Syl-Ying"><img src="assets/contact/contact_img/github.png" alt="Github"></a>
+                </div>  
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footerend">
+                <p>&copy;2024 Sylvia Ying. All rights reserved</p>
+            </div>
+        </footer>
+
+        <!-----------------Nav Mobile------------------->
+        <section class="nav_mobile">
+            <nav>
+                <div class="name">
+                    <a href="index.html">Sylvia Ying</a>
+                </div>
+
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="cv">
+                    <a href="https://docs.google.com/document/d/1kPq-vc0utZAjgRHvfy6Cs5yiedgi-eG0/edit?usp=sharing&ouid=117763228255186080644&rtpof=true&sd=true" class="cv-text">CV</a>
+                    <img src="assets/nav/nav_img/download.png" alt="download">
+                </div>
+            </nav>
+        </section>
+    </body>
 </html>
